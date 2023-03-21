@@ -4,15 +4,93 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/purple_200"
     tools:context=".MainActivity">
 
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="252dp"
+        android:layout_height="65dp"
+        android:hint="Usuario"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="284dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="249dp"
+            android:layout_height="53dp"
+            android:background="#FFFFFF"
+            android:backgroundTint="#FFFFFF"
+            android:inputType="textPersonName"
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorHint="#000000"
+            android:textColorLink="#000000" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="255dp"
+        android:layout_height="68dp"
+        android:hint="Contraseña"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="349dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="249dp"
+            android:layout_height="53dp"
+            android:background="#FFFFFF"
+            android:inputType="textPersonName" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="362dp"
+        android:layout_height="228dp"
+        app:srcCompat="@drawable/screen_shot_2023_03_21_at_4_00_57_a_m_"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="207dp"
+        android:layout_height="72dp"
+        android:backgroundTint="#50C6BB"
+        android:text="Iniciar Sesión"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="532dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="206dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#8363CC"
+        android:text="Registrarse"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="614dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="151dp"
+        android:layout_height="46dp"
+        android:button="@android:drawable/checkbox_off_background"
+        android:buttonTint="#DAD8D8"
+        android:text=" Recordar Usuario"
+        android:textColor="#F6F6F6"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="440dp" />
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/textView2"
+        android:layout_width="210dp"
+        android:layout_height="53dp"
+        android:text=" ¿Olvidaste tu contraseña?"
+        android:textColor="#FFD57F"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="417dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
