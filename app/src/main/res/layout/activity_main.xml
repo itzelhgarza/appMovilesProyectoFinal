@@ -9,6 +9,7 @@
     tools:context=".MainActivity">
 
     <com.google.android.material.textfield.TextInputLayout
+
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="252dp"
         android:layout_height="65dp"
@@ -17,6 +18,7 @@
         tools:layout_editor_absoluteY="284dp">
 
         <com.google.android.material.textfield.TextInputEditText
+
             android:layout_width="249dp"
             android:layout_height="53dp"
             android:background="#FFFFFF"
@@ -30,6 +32,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
+
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="255dp"
         android:layout_height="68dp"
