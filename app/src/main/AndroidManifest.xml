@@ -12,6 +12,21 @@
         android:theme="@style/Theme.APPMOviles"
         tools:targetApi="31">
         <activity
+            android:name=".Buscar"
+            android:exported="false" />
+        <activity
+            android:name=".Configuracion"
+            android:exported="false" />
+        <activity
+            android:name=".Faq"
+            android:exported="false" />
+        <activity
+            android:name=".HistoriaInfo"
+            android:exported="false" />
+        <activity
+            android:name=".Temas"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
