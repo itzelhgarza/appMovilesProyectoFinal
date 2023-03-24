@@ -61,208 +61,56 @@
     </GridLayout>
 <LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginRight="10dp"
-    android:layout_marginLeft="10dp"
+    android:layout_height="69dp"
     android:layout_marginTop="30dp"
+    android:layout_gravity="center|bottom"
     android:orientation="horizontal">
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        android:orientation="vertical">
-        <Button
-            android:id="@+id/buttonInicio"
-            android:layout_width="60dp"
-
-            android:layout_height="60dp"
-            android:background="@drawable/inicio"
-            app:backgroundTint="@null"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/inicio"
-            android:layout_gravity="center"
-            android:textAlignment="center" />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        android:orientation="vertical">
-        <Button
-            android:id="@+id/buttonBuscar"
-            android:layout_width="60dp"
-
-            android:layout_height="60dp"
-            android:background="@drawable/buscar1"
-            app:backgroundTint="@null"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/buscar"
-            android:layout_gravity="center"
-            android:textAlignment="center" />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        android:orientation="vertical">
-        <Button
-            android:id="@+id/buttonbiblioteca"
-
-            android:layout_height="60dp"     android:layout_width="60dp"
-            android:background="@drawable/bibliotecaselect"
-            app:backgroundTint="@null"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/biblioteca"
-            android:layout_gravity="center"
-            android:textAlignment="center" />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        android:orientation="vertical">
-        <Button
-            android:id="@+id/buttonActividades"
-            android:layout_width="60dp"
-
-            android:layout_height="60dp"
-            android:background="@drawable/actividades"
-            app:backgroundTint="@null"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/actividades"
-            android:layout_gravity="center"
-            android:textAlignment="center" />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        android:orientation="vertical">
-        <Button
-            android:id="@+id/buttonPerfil"
-            android:layout_width="60dp"
-
-            android:layout_height="60dp"
-            android:background="@drawable/Perfil192"
-            app:backgroundTint="@null"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/perfil"
-            android:layout_gravity="center"
-            android:textAlignment="center" />
-    </LinearLayout>
+    <Button
+    android:id="@+id/buttonInicio"
+    android:layout_width="65dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+    android:layout_height="50dp"
+    android:background="@drawable/inicio"
+    app:backgroundTint="@null"
+    />
+    <Button
+        android:id="@+id/buttonBuscar"
+        android:layout_width="65dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/buscar"
+        app:backgroundTint="@null"
+        />
+    <Button
+        android:id="@+id/buttonbiblioteca"
+        android:layout_width="65dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/biblioteca"
+        app:backgroundTint="@null"
+        />
+    <Button
+        android:id="@+id/buttonActividades"
+        android:layout_width="65dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/actividades"
+        app:backgroundTint="@null"
+        />
+    <Button
+        android:id="@+id/buttonPerfil"
+        android:layout_width="65dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/perfil"
+        app:backgroundTint="@null"
+        />
 
 </LinearLayout>
 
 </LinearLayout>
-<!--
-
-    <TableLayout
-        android:layout_height="match_parent"
-        android:collapseColumns="5"
-        android:layout_width="wrap_content"
-        android:orientation="horizontal"
-       android:layout_gravity="center">
-        <TableRow>
-            <Button
-                android:id="@+id/buttonInicio"
-                android:layout_width="60dp"
-                android:layout_marginTop="50dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_height="wrap_content"
-                android:background="@drawable/inicio"
-                app:backgroundTint="@null"
-              />
-
-            <Button
-                android:id="@+id/buttonBuscar"
-                android:layout_marginTop="50dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buscar1"
-                app:backgroundTint="@null"
-               />
-            <Button
-                android:id="@+id/buttonbiblioteca"
-                android:layout_marginTop="50dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_height="wrap_content"
-                android:background="@drawable/bibliotecaselect"
-                app:backgroundTint="@null"
-             />
-            <Button
-                android:id="@+id/buttonActividades"
-                android:layout_marginTop="50dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_height="wrap_content"
-                android:background="@drawable/actividades"
-                app:backgroundTint="@null"
-                />
-            <Button
-                android:id="@+id/buttonPerfil"
-                android:layout_marginTop="50dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_height="wrap_content"
-                android:background="@drawable/Perfil192"
-
-                app:backgroundTint="@null"
-
-                />
-
-
-        </TableRow>
-        <TableRow>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/inicio"
-                android:textAlignment="center" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/buscar"
-                android:textAlignment="center" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/biblioteca"
-                android:textAlignment="center" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/actividades"
-                android:textAlignment="center" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/perfil"
-                android:textAlignment="center" />
-        </TableRow>
-    </TableLayout>
-!-->
