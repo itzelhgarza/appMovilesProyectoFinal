@@ -6,33 +6,36 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
+    android:background="@color/white"
     tools:context=".Faq">
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
         android:gravity="center_vertical">
 
-        <Button
-            android:id="@+id/buttonRegresa"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <ImageView
+            android:id="@+id/buttonRegresar"
+            android:layout_width="25dp"
+            android:layout_height="50dp"
+            android:background="@drawable/angleleftsolid416"
             android:padding="8dp"/>
-
 
         <TextView
             android:id="@+id/txtTitulo"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="Configuración"
+            android:text="Preguntas Frecuentes"
             android:background="@color/design_default_color_on_primary"
-            android:textSize="24sp"
+            android:textSize="30sp"
             android:textAlignment="center"
             android:padding="8dp"/>
-
     </LinearLayout>
 
     <View
@@ -41,70 +44,124 @@
         android:background="@android:color/darker_gray"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"/>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_marginTop="32dp"
+       android:layout_marginRight="50dp"
+       android:layout_marginLeft="50dp"
 
-    <Button
-        android:id="@+id/buttonEditar"
+       >
+       <Button
+           android:id="@+id/buttonCantidadPerfiles"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="¿Cuantos Perfiles puedo crear en TOFI? "
+           android:textColor="@color/black"
+           android:textSize="18sp"
+           app:backgroundTint="@null"
+           android:background="@drawable/roundwhite"
+           />
+       <TextView
+           android:id="@+id/minitextviewPerfiles"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Texto secreto"
+           android:visibility="invisible"
+           android:layout_gravity="center"
+           android:layout_below="@+id/myButton"/>
+   </LinearLayout>
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Editar"
-        android:background="@color/white"
-        android:textColor="@color/black"
-        android:textSize="18sp"
-        android:padding="16dp"/>
+        android:orientation="vertical"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        >
+        <Button
+            android:id="@+id/buttonOlvideUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@android:color/darker_gray"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"/>
-    <Button
-        android:id="@+id/buttonCambiarPerfil"
+            android:text="Olvide mi nombre de usuario"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:backgroundTint="@null"
+            android:background="@drawable/roundwhite"
+            />
+        <TextView
+            android:id="@+id/minitextviewOlvide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Texto secreto"
+            android:visibility="invisible"
+            android:layout_gravity="center"
+            android:layout_below="@+id/myButton"/>
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Cambiar de Perfil"
-        android:background="@color/white"
-        android:textColor="@color/black"
-        android:textSize="18sp"
-        android:padding="16dp"/>
+        android:orientation="vertical"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        >
+        <Button
+            android:id="@+id/buttonCambioIcono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@android:color/darker_gray"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"/>
+            android:text="Quiero Cambiar el Icono de mi Perfil"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:backgroundTint="@null"
+            android:background="@drawable/roundwhite"
+            />
+        <TextView
+            android:id="@+id/minitextviewCambio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Texto secreto"
+            android:visibility="invisible"
+            android:layout_gravity="center"
+            android:layout_below="@+id/myButton"/>
+    </LinearLayout>
 
-    <Button
-        android:id="@+id/buttonAyuda"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Ayuda"
-        android:background="@color/white"
-        android:textColor="@color/black"
-        android:textSize="18sp"
-        android:padding="16dp"/>
+        android:orientation="vertical"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        >
+        <Button
+            android:id="@+id/buttonSinImagenes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No puedo ver las imagenes de las historias"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:backgroundTint="@null"
+            android:background="@drawable/roundwhite"
+            />
+        <TextView
+            android:id="@+id/minitextviewSinImagenes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Texto secreto"
+            android:visibility="invisible"
+            android:layout_gravity="center"
+            android:layout_below="@+id/myButton"/>
+    </LinearLayout>
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@android:color/darker_gray"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"/>
 
-    <Button
-        android:id="@+id/buttonCerrarSesion"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Cerrar Sesion"
-        android:background="@color/white"
-        android:textColor="@color/black"
-        android:textSize="18sp"
-        android:padding="16dp"/>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@android:color/darker_gray"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"/>
+
+
+
+
+
 </LinearLayout>
