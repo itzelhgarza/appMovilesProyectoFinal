@@ -53,16 +53,15 @@
         android:layout_marginLeft="8dp"
         android:textStyle="bold"
         />
-
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="500dp">
-
     </GridLayout>
+
 <LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="69dp"
-    android:layout_marginTop="30dp"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
     android:layout_gravity="center|bottom"
     android:orientation="horizontal">
     <Button
@@ -71,9 +70,9 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
     android:layout_height="50dp"
-    android:background="@drawable/inicio"
-    app:backgroundTint="@null"
-    />
+        android:background="@drawable/inicio"
+        android:contentDescription="Ir a inicio de app"
+    app:backgroundTint="@null"/>
     <Button
         android:id="@+id/buttonBuscar"
         android:layout_width="65dp"
@@ -81,6 +80,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:background="@drawable/buscar"
+        android:contentDescription="Buscar libros,categorias"
         app:backgroundTint="@null"
         />
     <Button
@@ -90,6 +90,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:background="@drawable/biblioteca"
+        android:contentDescription="Entrar a biblioteca"
         app:backgroundTint="@null"
         />
     <Button
@@ -99,6 +100,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:background="@drawable/actividades"
+        android:contentDescription="Ver actividades"
         app:backgroundTint="@null"
         />
     <Button
@@ -108,6 +110,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:background="@drawable/perfil"
+        android:contentDescription="Ver perfil"
         app:backgroundTint="@null"
         />
 
