@@ -66,6 +66,12 @@
         android:layout_marginLeft="8dp"
         android:textStyle="bold"
         />
+    <GridView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/buscarGrid"
+        android:numColumns="2">
+    </GridView>
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="500dp"
@@ -76,7 +82,7 @@
             android:orientation="horizontal"
             android:layout_margin="5dp"
             android:background="@drawable/circle_background"
-            tools:context=".CategoriaBase">
+          >
 
             <ImageView
                 android:id="@+id/my_image_view"
