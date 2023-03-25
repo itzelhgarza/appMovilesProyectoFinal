@@ -45,70 +45,95 @@
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"/>
     <TableLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+      >
 
-        <TableRow
-            android:layout_weight="1"
-            android:gravity="center">
+        <TableRow>
+            <Button
+                android:id="@+id/balon_button"
+                android:layout_width="145dp"
+                android:layout_height="145dp"
+                android:textColor="@color/black"
+                android:text="Balón"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:drawableTop="@drawable/balon"
+                android:background="@drawable/botontemaselectable" />
 
             <Button
-                android:id="@+id/button1"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-        />
-
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Botón 2"/>
-
+                android:id="@+id/cohete_button"
+                android:layout_width="145dp"
+                android:layout_height="145dp"
+                android:text="Cohete"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:drawableTop="@drawable/cohete"
+                android:background="@drawable/botontemaselectable" />
         </TableRow>
 
-        <TableRow
-            android:layout_weight="1"
-            android:gravity="center">
+        <TableRow>
+            <Button
+                android:id="@+id/magia_button"
+                android:layout_width="145dp"
+                android:layout_height="145dp"
+
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:text="Magia"  android:textColor="@color/black"
+android:layout_marginBottom="10dp"
+                android:drawableTop="@drawable/magia"
+                android:background="@drawable/botontemaselectable" />
 
             <Button
-                android:id="@+id/button3"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Botón 3"/>
+                android:id="@+id/musical_button"
+                android:layout_width="145dp"
+                android:layout_height="145dp"
 
-            <Button
-                android:id="@+id/button4"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Botón 4"/>
-
+                android:layout_marginTop="10dp"
+                android:text="Musical"
+                android:textColor="@color/black"
+                android:drawableTop="@drawable/musical"
+                android:background="@drawable/botontemaselectable" />
         </TableRow>
 
-        <TableRow
-            android:layout_weight="1"
-            android:gravity="center">
+        <TableRow>
+            <Button
+                android:id="@+id/perro_button"
+
+                android:layout_width="145dp"
+                android:layout_height="145dp"
+                android:layout_marginRight="10dp"
+                android:text="Perro"
+                android:layout_marginTop="10dp"
+                android:drawableTop="@drawable/perro"  android:textColor="@color/black"
+                android:background="@drawable/botontemaselectable" />
 
             <Button
-                android:id="@+id/button5"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Botón 5"/>
-
-            <Button
-                android:id="@+id/button6"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-            />
-
+                android:id="@+id/videojuego_button"
+                android:layout_width="145dp"
+                android:layout_marginTop="5dp"
+                android:layout_height="145dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/botontemaselectable"
+                android:drawableTop="@drawable/videojuego"
+                android:text="Videojuego"
+                android:textColor="@color/black"
+               />
         </TableRow>
 
     </TableLayout>
-
+<Button
+    android:id="@+id/botonListo"
+    app:backgroundTint="@null"
+    android:layout_marginTop="25dp"
+    android:layout_width="250dp"
+    android:layout_height="60dp"
+    android:layout_gravity="center"
+    android:text="Listo"
+   android:background="@drawable/roundgreen"
+    />
 
 </LinearLayout>
