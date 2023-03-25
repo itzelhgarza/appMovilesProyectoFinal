@@ -5,24 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    app:backgroundTint="@null"
+    android:layout_margin="5dp"
     android:background="@drawable/circle_background"
     tools:context=".CategoriaBase">
-
 
         <ImageView
             android:id="@+id/my_image_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@drawable/circle_background"
             android:src="@drawable/fantasia"
-            app:backgroundTint="@null"
-            android:scaleType="centerCrop"
-            android:background="@drawable/mask"/>
-
+          />
         <TextView
             android:id="@+id/my_text_view"
             android:layout_width="wrap_content"
-            android:layout_margin="10dp"
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:layout_gravity="center"
