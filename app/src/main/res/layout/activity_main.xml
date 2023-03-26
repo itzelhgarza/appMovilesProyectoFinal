@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/purple_200"
+    android:background="@drawable/round_purple"
     tools:context=".MainActivity">
 
     <com.google.android.material.textfield.TextInputLayout
@@ -52,7 +52,7 @@
         android:id="@+id/imageView"
         android:layout_width="362dp"
         android:layout_height="228dp"
-        app:srcCompat="@drawable/screen_shot_2023_03_21_at_4_00_57_a_m_"
+        app:srcCompat="@drawable/logo"
         tools:layout_editor_absoluteX="24dp"
         tools:layout_editor_absoluteY="45dp" />
 
@@ -60,7 +60,8 @@
         android:id="@+id/button"
         android:layout_width="207dp"
         android:layout_height="72dp"
-        android:backgroundTint="#50C6BB"
+        app:backgroundTint="@null"
+        android:background="@drawable/round_button_green"
         android:text="Iniciar Sesión"
         tools:layout_editor_absoluteX="102dp"
         tools:layout_editor_absoluteY="532dp" />
@@ -69,7 +70,8 @@
         android:id="@+id/button2"
         android:layout_width="206dp"
         android:layout_height="70dp"
-        android:backgroundTint="#8363CC"
+        app:backgroundTint="@null"
+        android:background="@drawable/round_button_purple"
         android:text="Registrarse"
         tools:layout_editor_absoluteX="102dp"
         tools:layout_editor_absoluteY="614dp" />

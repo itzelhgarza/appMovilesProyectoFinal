@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#837CB3</color>
+    <color name="purple_200">#FFBB86FC</color>
     <color name="purple_300">#8363CC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
@@ -14,4 +14,15 @@
     <color name="secondary_color_dark">#018786</color>
     <color name="light_text">#FFFFFF</color>
     <color name="dark_text">#000000</color>
+    <color name="red_app">#FF616D</color>
+    <color name="green_btn_200">#83CEB3</color>
+    <color name="green_btn_300">#7ACCAE</color>
+    <color name="green_btn_500">#267C5D</color>
+    <color name="purple_btn_200">#8B82D3</color>
+    <color name="purple_btn_300">#8881C9</color>
+    <color name="purple_btn_500">#4E2F85</color>
+    <color name="purple_rnd_200">#9085C8</color>
+    <color name="purple_rnd_300">#706897</color>
+    <color name="text_purple_dark">#484463</color>
+
 </resources>
