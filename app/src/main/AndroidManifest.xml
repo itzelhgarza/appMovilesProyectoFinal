@@ -12,6 +12,9 @@
         android:theme="@style/Theme.APPMOviles"
         tools:targetApi="31">
         <activity
+            android:name=".Regalo"
+            android:exported="false" />
+        <activity
             android:name=".BibliotecaBase"
             android:exported="false" />
         <activity
