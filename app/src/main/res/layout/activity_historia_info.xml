@@ -88,7 +88,7 @@
              android:layout_weight="1" android:layout_gravity="center"
              android:layout_margin="4dp" android:textAlignment="center"
              android:text="Ficcion"
-             android:background="@drawable/roundgray"/>
+             android:background="@drawable/round_gray"/>
 
          <TextView
              android:id="@+id/textView2"
@@ -97,7 +97,7 @@
              android:layout_weight="1" android:textAlignment="center"
              android:layout_margin="4dp"
              android:text="Popular" android:layout_gravity="center"
-             android:background="@drawable/roundgray"/>
+             android:background="@drawable/round_gray"/>
 
          <TextView
              android:id="@+id/textView3"
@@ -106,7 +106,7 @@
              android:layout_weight="1" android:textAlignment="center"
              android:layout_margin="4dp"
              android:text="Amistad" android:layout_gravity="center"
-             android:background="@drawable/roundgray"/>
+             android:background="@drawable/round_gray"/>
 
       </TableRow>
 
@@ -119,7 +119,7 @@
              android:layout_weight="1"     android:paddingTop="7dp"
              android:layout_margin="4dp" android:textAlignment="center"
              android:text="Novela" android:layout_gravity="center"
-             android:background="@drawable/roundgray"/>
+             android:background="@drawable/round_gray"/>
 
          <TextView
              android:id="@+id/textView5"
@@ -128,7 +128,7 @@
              android:layout_weight="1" android:textAlignment="center"
              android:layout_margin="4dp"
              android:text="Arte" android:layout_gravity="center"
-             android:background="@drawable/roundgray"/>
+             android:background="@drawable/round_gray"/>
 
          <TextView
              android:id="@+id/textView6"
@@ -138,7 +138,7 @@
              android:layout_margin="4dp" android:textAlignment="center"
              android:layout_gravity="center"
              android:text="Escolar"
-             android:background="@drawable/roundgray"/>
+             android:background="@drawable/round_gray"/>
 
       </TableRow>
    </TableLayout>

@@ -27,7 +27,7 @@
         android:layout_marginLeft="10dp"
         android:orientation="horizontal"
         android:gravity="center_vertical"
-        android:background="@drawable/roundgray"
+        android:background="@drawable/round_gray"
         >
 
         <ImageView
@@ -43,7 +43,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            android:background="@drawable/roundgray"
+            android:background="@drawable/round_gray"
             android:hint="Buscar historias, autores, etc."
             android:textColorHint="#808080"
             android:textSize="21sp" />

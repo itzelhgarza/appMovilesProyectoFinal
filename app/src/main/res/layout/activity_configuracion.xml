@@ -57,7 +57,7 @@
         android:textColor="@color/black"
         android:textSize="18sp"
         app:backgroundTint="@null"
-        android:background="@drawable/roundwhite"
+        android:background="@drawable/round_white"
       />
 
 
@@ -74,7 +74,7 @@
             android:layout_marginTop="16dp"
             android:padding="16dp"
             app:backgroundTint="@null"
-            android:background="@drawable/roundwhite"/>
+            android:background="@drawable/round_white"/>
 
 
 
@@ -91,7 +91,7 @@
             android:textSize="18sp"
             android:padding="16dp"
             app:backgroundTint="@null"
-            android:background="@drawable/roundwhite"/>
+            android:background="@drawable/round_white"/>
 
 
 
@@ -108,7 +108,7 @@
             android:textSize="18sp"
             android:padding="5dp"
             app:backgroundTint="@null"
-            android:background="@drawable/roundgray"/>
+            android:background="@drawable/round_gray"/>
 
 
 </LinearLayout>

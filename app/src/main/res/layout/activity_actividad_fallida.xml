@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/roundwhite"
+    android:background="@drawable/round_white"
     android:orientation="vertical"
     tools:context=".Actividad_Fallida">
 
@@ -72,7 +72,7 @@
         android:layout_height="48dp"
         android:layout_marginTop="25dp"
         android:layout_gravity="center"
-        android:background="@drawable/roundgray"
+        android:background="@drawable/round_gray"
         android:text="Ahora no"
         android:textColor="@color/text_purple_dark"
         app:backgroundTint="@null" />

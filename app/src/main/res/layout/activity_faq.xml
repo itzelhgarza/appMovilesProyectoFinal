@@ -61,7 +61,7 @@
            android:textColor="@color/black"
            android:textSize="18sp"
            app:backgroundTint="@null"
-           android:background="@drawable/roundwhite"
+           android:background="@drawable/round_white"
            />
        <TextView
            android:id="@+id/minitextviewPerfiles"
@@ -89,7 +89,7 @@
             android:textColor="@color/black"
             android:textSize="18sp"
             app:backgroundTint="@null"
-            android:background="@drawable/roundwhite"
+            android:background="@drawable/round_white"
             />
         <TextView
             android:id="@+id/minitextviewOlvide"
@@ -118,7 +118,7 @@
             android:textColor="@color/black"
             android:textSize="18sp"
             app:backgroundTint="@null"
-            android:background="@drawable/roundwhite"
+            android:background="@drawable/round_white"
             />
         <TextView
             android:id="@+id/minitextviewCambio"
@@ -146,7 +146,7 @@
             android:textColor="@color/black"
             android:textSize="18sp"
             app:backgroundTint="@null"
-            android:background="@drawable/roundwhite"
+            android:background="@drawable/round_white"
             />
         <TextView
             android:id="@+id/minitextviewSinImagenes"
